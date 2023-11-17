@@ -1,0 +1,10 @@
+version: "2"
+services:
+  ubuntu:
+    image: ubuntu
+    command: sleep infinity
+    volumes:
+      - ./newVolume:/vol
+    deploy:
+      mode: replicated
+      replicas: 3
