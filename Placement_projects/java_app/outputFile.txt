@@ -1,4 +1,4 @@
-Start
-Positive
 Failed
+Start
 Destroyed
+Positive

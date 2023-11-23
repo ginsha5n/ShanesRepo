@@ -1,7 +1,7 @@
 package test_folder;
-import src.FrameWork;
+import src.Framework;
 
 
-public class TestingFramework extends FrameWork {
+public class TestingFramework extends Framework {
     
 }
