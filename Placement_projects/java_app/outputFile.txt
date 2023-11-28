@@ -1,4 +1,8 @@
 Start
-Destroyed
-Positive
+Pass
 Failed
+Positive
+Broken
+negative
+Go
+Destroyed
