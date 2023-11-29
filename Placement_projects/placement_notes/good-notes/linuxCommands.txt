@@ -1,0 +1,33 @@
+Linux Commands 
+(29/06/2023)
+
+
+touch <fileName>   `		 makes a file
+mv <source> <destination>    Moves or renames file
+cp <source> <destination>	 copy file
+rm <fileName>				 delete file
+rm -r <file/dir>			 delete file or dir (non empty)
+chmod 						 modify file permissions
+ls -l						 list files with permission settings on display
+ls -1						 list files in a single column
+ls __*						 list all files that begin with given letters
+
+What is:
+
+.
+./			calling something that in the current working directory
+$			call a variable, var = "hello":	echo $var 	
+~ 			User home dir
+
+open and add alias			vim ~/.bashrc
+add alias to path							source ~/.bashrc
+
+stat <file>      Show info on the file
+
+$() Wildcard 
+
+$(pwd) 
+$?
+
+echo Today is $(date)
+echo I am $(whoami)

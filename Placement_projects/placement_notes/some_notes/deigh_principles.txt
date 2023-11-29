@@ -1,0 +1,48 @@
+Some design principles:
+
+Encapsulate what varies:
+identify what can change down the line and seperate them from what stays the same.
+
+Program to an interface, Not an implementation
+
+Favour composition over inheritance
+
+the open closed principle
+open for extension
+closed for modification
+The ability to add some new changes or features withou toucjing the existing code
+flexibility and amintainibilty without the risk of adding new bugs
+
+
+
+Design Patterns:
+
+Strategy pattern:
+define a family of algorithms
+encapsulate each one.
+makes them interchangable and vary independantly
+
+Adapter pattern
+
+Convert an interface of a class to another interface a client can understand
+
+Observer pattern
+Strive for loosly coupled object
+onme to many dependency
+when one object changes state all its dependants are notified and updated.
+subject - observer 
+
+Decorater pattern
+attach additional responsibilties to an object dynamically
+flexible alternative to subclassing
+
+Iterator pattern
+accessing the lements of an aggregate object sequentially without exposing it underlying representation
+agregate object, collection of objects. Access elements without knowing how theyre implemented
+
+simple Factory pattern
+deal with object creation
+
+factory method pattern
+defnie an interface for creating an object
+lets subclasses define instantiation

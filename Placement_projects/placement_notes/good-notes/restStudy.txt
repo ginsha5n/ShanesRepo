@@ -1,0 +1,17 @@
+Restful API
+Representational state transfer
+
+https://en.wikipedia.org/wiki/Representational_state_transfer
+succeds wsdl (web services description language)
+
+the architectuaral style and design of network software architectures
+
+couples a client and origin server
+
+HTTP Methods
+
+GET -> Retrieve information only (resource representation)
+POST -> Create new resources
+DELETE -> delete resources
+PATCH -> a post to resource to make it more precise (partially update)
+PUT -> Update/replace a resource

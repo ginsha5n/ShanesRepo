@@ -1,0 +1,35 @@
+making a docker container
+
+https://tecadmin.net/how-to-create-and-run-a-flask-application-using-docker/
+
+within the deploy folder should be:
+Dockerfile and requirements.txt
+
+from the parentDirectory run:
+docker build -t <flask-app> <./deploy>
+				<app>		<folder with dockerfile>
+				
+sudo docker run -it -p 5000:5000 -d flask-app  
+
+docker container ls
+
+Stop all containers (grabs the container id of your containers and parses it into the docker stop command)
+docker stop $(docker ps -a -q)
+
+---------------------------------------------------------
+Docker volume 
+https://www.youtube.com/watch?v=OrQLrqQm4M0
+
+docker run -itd --name volumeTest --mount source=myvolume,target=/vol ubuntu
+	-itd = interative(i) shell(t) in the background(d)
+	source = volume 
+	target = mountpointinside containerubuntu = image being used
+
+docker exec -it volumeTest sh
+	enter shell (root user)
+				
+ docker run -itd --name vol2test -v myVolume:/vol ubuntu
+-v myVolume:/vol (is the same as source=myVolume,target=/vol
+
+(use replicas to have copies)
+docker exec -it dockercomposetest_ubuntu2_1 bin/bash

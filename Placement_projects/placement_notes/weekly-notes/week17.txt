@@ -1,0 +1,44 @@
+Week 17
+
+Went to the standup
+Threading
+blocking and unblocking calls
+
+
+Tuesday 12/09/2023
+
+Creted the testing environment locally
+
+Wednesday
+cd-1923-integration-test-framework
+email to sort out access card, told it s working ill find out tmor
+email john about meeting.
+Vagrant software
+
+writing readmes and copypasting old rules into new ones events
+
+Thursday 14/09/2023
+
+door card works again, hard to believe after so long....
+
+https://go.dev/tour/welcome/1
+
+messing with golang, going over the tour, made a guessing game
+
+https://github.com/localstack/localstack
+
+Got a tour of the data centere, its the Siemens EMEA (Europe, Middle East, ?)
+met the other coop fella Jo han 
+Jason brought in a cheese cake and saved me a slice. It was unbelivable ahahaha
+Today was Pauls last day, absolute shame to see him go but hes getting big money and getting out of here so best of luck to him.
+
+
+Friday
+
+Update Docker compose (curently 1.29.2)
+just uninstall and reinstall... Not working have to get the file from docker 
+
+2 versions on the computer
+
+
+

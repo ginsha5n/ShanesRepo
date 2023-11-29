@@ -1,0 +1,31 @@
+Starting a new function
+
+1) clone repo
+find link on git lab
+git clone <link>
+
+2)checkout dev
+git checkout dev
+
+3)is it up to date
+git pull
+
+4)create branch
+git checkout -b <Issue Code>
+
+5) open in Vs code (Run this command to open in VS code)
+code . 
+
+6) Publish branch to remote.
+
+
+7) Pulling from dev to current branch 
+git pull --no-rebase origin dev
+
+
+showcommits | grep Shane
+git brach -vv
+
+ls -l <file>  does file exist
+
+96

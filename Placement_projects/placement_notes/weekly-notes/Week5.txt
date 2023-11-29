@@ -1,0 +1,35 @@
+week 5
+
+Monday 19/06/2023
+Okay today, work on the practiser task. Turn functions into class and start calling objects. setup and teardown functions?
+Work on managers task. Become familiar with data structures, maops and arrays
+Collection class with functions to add, find , del by name and index
+
+-------------
+Tuesday
+if your going to do camel casing do it all the way. include Small words.
+
+
+
+
+-------------------------------------------------------------------
+Wednesday
+
+Rest Endpoints
+Flask
+
+pip3 install flask
+add to path
+(on cli)
+setx path <PATH>
+
+looked at Postman software and Json files
+started setting up Colletion class on 
+
+---------------------------------------------------------
+Thursday 22/06/2023
+
+In office
+Should i start my Work placement Diary??? Look up that powerpoint again.
+
+

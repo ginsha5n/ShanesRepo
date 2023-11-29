@@ -1,0 +1,45 @@
+Week 8
+Monday
+
+continue testing. Is the truncate test accurate. Do invalid command test.
+Make merge request for fridays tests
+
+----------------------------------------------------------------------------
+Thursday 13/07/2023
+
+My door card doesnt work anymore
+Change to Pycharm IDE, shows messages to help with programming ( spell check, PEP8 format sugestions (out of the box))
+Also getting used to pycharm community edition now could be advantages as when i return to university i can avail of th the Jetbrains educational liscense
+and get access to Pycharm pro edition for free.
+learn about chmod linux command.
+
+install pycharm through wsl 
+https://stackoverflow.com/questions/68930962/how-to-install-pycharm-in-window-subsystem-linux-ubuntu
+
+0877F1 Blue
+
+Research Restful
+Week 9 
+18/07/2023
+
+Monday
+Test invalid command didnt work because i was trying ot parse the last line of the logs before the controller had 
+time to finish writing them.
+
+theres a function in the test framework that could help. but im supposed to write one thats more precise for the 
+situation
+
+Had a call with jacob. My first one on one n two weeks. excluding Thursdays.
+
+Tuesday
+Still working on the
+
+
+Week 9
+
+Havent been able to make much progress still on the same test as last friday.
+Had another breakdown Thursday. I was outside the door, i was running late, my doorcard doesnt work and i cant get in without asking 
+someone for help.
+
+Had another chat with John and Jason. Basically i dont know what i dont know. I know more and have picked up things
+but when im put on the spot i cant put words to it.

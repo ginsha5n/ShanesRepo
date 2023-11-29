@@ -1,0 +1,62 @@
+week 16
+
+Monday 04/09/2023
+
+Class meeting with ian grout this morning 
+I missed the standup today
+I have noting in the Scrum board
+Started working on Coop report 
+preparing notes and points to address for faculty visit
+manager on holiday untill the 11th with no communication available. 
+downloaded localstack cli interface
+madatory training on customs essentials
+
+Tuesday
+
+
+
+Wednesday
+
+PKI card working agan
+Amazon sqs (simple Queue Service)
+
+Thursday 
+
+My access card still doesnt work, i was told it would, so ive been id say 2 months without an access card to the building meaning i need to be let in
+and i cant leave the bui;ding for lunch for fear i cant get back in.
+
+Eventbridge, AWS sqs
+
+Events, Rules, Ques
+
+A que has a list of rules, an event has rules, if the event rule matches the que rules it goes to that que.
+
+PKI successfully activated
+
+
+I was tring to login to confluece but i couldnt remeber the end of my password and it doesnt allw me to reset it, an dthe managers gone i needed a list from it.
+I went thrugh my note book three times before fnding it cause i knew i must of written it down at some stage. Ahaha
+Turns out ididnt need confluencce the list wwsa on gitlab which i use my card for......
+
+aws cli on local machine
+For a specific user
+
+Use this command pip3 install awscli --upgrade --user to install awscli package. When you use the --user switch, pip installs the AWS CLI to ~/.local/bin.
+
+Add an export command at the end of your shell initialization file, .bashrc for bash, .zshrc for zsh etc. For example, export PATH=~/.local/bin:$PATH. This command inserts the path, ~/.local/bin in this example, at the front of the existing PATH variable.
+
+Reload the profile into your current session to put those changes into effect source ~/.bashrc.
+
+Verify that the AWS CLI installed correctly.
+
+aws set up
+
+remember inodes for work diary learning( data and meta data)
+aws ecr (repository)
+gitlab CI/CD (continous integration, delivery and deployment, uses a gitlabci.yaml file that containes stages of testing that runs certain commands to test the project status. 
+any time a developer merges code the yaml file runs all the stages on the new instance of the project to check all stages pass and no errors occur. 
+automatically tests developers code
+
+json
+vscode 
+pycharm

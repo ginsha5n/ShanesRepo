@@ -1,0 +1,67 @@
+Week 4
+Monday 12/06/2023
+
+Stuck on dowload task.
+
+sh shell interprettur
+-c run command redirect
+
+1) Enter container command line (remote side)
+docker exec -it -u remote-user local_env_remote-machine_1 /bin/bash
+
+(ground side) run cli connect to controller (ground side)
+2)docker exec -it -u ground-user local_env_ground-machine_1 /bin/bash
+
+  /cloudflow-bin/cloudflow-cli-poc engineering-mode stream --help   (shows args menu)
+  /cloudflow-bin/cloudflow-cli-poc engineering-mode stream --server-address remote --server-port 50051 --working-dir /tmp/working-dir
+  
+3)execute job (within controller)(remote)
+/cloudflow-bin/cloud-flow-ctrl-poc --job echo remote > remote.txt
+
+-------------------------------------------------------------------------
+
+Tuesday
+
+Tested download file :/
+started new task: enable debug logging in test runs.
+
+
+
+
+---------------------------
+Wednesday
+
+
+
+
+
+----------------------
+Thursday
+I have 1 month done now. I have been unhappy with my work placement so far. I began feeling this the Friday of week 2. I struggled with the working from home situation and being in my own bubble
+What what the situation a lot worse in my head is didnt get along with my assigned "buddy". 4 days a week i was mostly in my own bubble apart from daily 15min standup meetings
+with the team. my only 1:1 contact was with my "buddy". It became aparant early on that we didnt gel. Its obvious that the most important thing to do in engineering placement is to ask for help when 
+you need to. Asking for is difficult to begin with, asking someone you dont like for help is even more difficult
+and knowing that when you ask for help your met with a smart comment or sly remark makes it an even greater challenge. I was made feel like a fool.
+
+One example of a comment that bothered me more tha i realised at the time was during the second ever test i had to write out. It was very similar to the first one i did, which was completed after 
+of help was given. I hit errors in the test and eventually reached out. My "buddy" seemed unintrested, and he said "The whole idea is that your able to do these tests byself" i didnt think
+much of it at the time, i thought he was right. but looking back and i had only written one test before in my life. I had only really had 2 weeks in the industry. I shouldnt be expected to jus be able to do it
+after that length of time.
+
+
+I realise im the one who needs to search for the help. Im the one who has to ask question and i cant expect answers to be given out of thin air. But it would be nice, 
+and i would appreciate someone just checking in with my regularly. And as stated above i dont feel i wasn in an environment where i could ask questions freely and without judgment
+
+
+In the 4 weeks ive been here not one person has asked how i am getting on, how is the transistion from college to work, how is the move from in person to working from home.
+To begin with i didnt want to give attention to these as its a huge multinational company and people are here to work, not make friends,
+ but the conclusion i came to after awhile is 
+that people arnt robots were social creatures and important aspecty for employers today is creating creating a healthly workplace environment where employess feel valued and look after,
+because when an employee is happy they do their best work, they develop quicker, they do better work and in the end everyone benifits.
+I dont like the workplace environment ive found myself. 
+Ive realised this really bothers and makes me feel that people are unintrested and im not valued or cared about. 
+
+I was hesitant to approach the manager as it has only been a month, maybe i should give it more time, give myself more time to settle, but as i sat in the office on a Thursday not knowing how to 
+move forward, with my "buddy" sat 2m away from me, at 2 oclock in the day having not checked in m at all that moring. I got up and went for a walk to to try ease the frustration.
+I didnt get up with the intention of going to managers office but i found myslf outside his door and knocked. He had 5 minutes to spare. I said "Ive been 4 weeks now and im going to be hoest with you
+im really not happy here" I explained everything above and it went from there.

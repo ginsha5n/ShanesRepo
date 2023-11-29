@@ -1,0 +1,48 @@
+Faculty visit
+
+Didnt get on with my original mentor
+Called an ageist by the manger 
+never see the manager 
+original email sent to placement officer
+Never settled into the role
+dont see the manager
+Never saw the Hr woman she never showed up for our meeting, only go tback to me 2 hours later to set up meeting i took sick the next day and let her know, she never got back into contact
+Struggel working from home
+I want to work with people my own age, an di wont be called an ageist for it
+no peers, no other interns, graduates, junior engineers working here
+went a whole week without anyone messaging checking in what im doing or ho im getting on, 
+went 2 weeks without a 1:1 chat with anyone
+flat organisation with no one to answer to except the manager whos also like project director so i never see him
+Poor induction training, it was week 11 before i got an actual conversation on what the project theyre working on actually does, how am i supposed to work on it 
+I struggle with the flat organisation. Where i am now i need solid workplace structure, i have my mentor but he isnt a manager he doesnt like to order me around me arounf hes more like what do you want to work on??? I dont know!!!
+
+My access card to the uilding doesnt work, its a loaner badge, never got a official one, the loaner card doesnt work, i let them know, they told me it would work 
+again, 2 weeks later it doesnt work again and i dont know who to go to because the manager is unavailable, (flat hierarchy)
+
+
+Placement log book? I have notes made weekly should i make a document of those and submit alongside
+any info on past projects
+has there ever been cases of people having to leave placement over being so unhappy with where they are 
+
+I dont like being here and i also dont like being the only whos mood brings down the whole room. Its had a negative effect on me in every aspect, the only way ive gotten over it in my
+personal life is by getting rid of the anxiety and after getting rid of that all thats left behind is nothing, i dont care about this place.
+
+Python
+Decomposition, Classes, objects, framework, DRY principle (dont repeat yourself)
+Pytest
+Robot test framework
+data structures
+Agile Planning OKR, Retrospectives, sprints, scrum, continuos demos and refinements (okr = objectives and key results)
+Rest API
+Go programming language
+Docker 
+Docker compose, volumes, containers etc
+Linux
+linux file systems (nodes etc)
+Visual studio
+Pycharm
+headless servers
+localstack and AWS services (SQS eventbridge)
+ssh, sha256, 
+ssh public and private keys
+ssl certificates

@@ -1,0 +1,25 @@
+Thursday 16/11/23
+
+sqs
+kong
+ddb
+eventbridge
+scs
+
+pycharm
+
+polling
+junit test
+component testing -> test a service
+unit test -> test a functino
+
+
+salmon butter, garlic, lemon.
+honey glazed salmon??
+roast potatoe, carrot and garlic 
+air fried asparagus.
+
+Diwali
+malteasers faid
+can you differentiate bwtween ni scot etc uk regs
+fourier series

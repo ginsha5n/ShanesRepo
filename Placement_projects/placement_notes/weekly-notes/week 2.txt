@@ -1,0 +1,69 @@
+Monday 29/05/20203
+
+my gitlab doesnt work (sumanth? / raise ticket)
+email signed hr forms to susan (Done)
+compass (manage time from last week)
+pytest framework. i jhave python 3.11 installed
+
+script: program or instructions that is intrepreted or carried out. List of commands
+Continued python course, date and times, internet data.
+Git book
+Got pki card.
+
+but I already have access to Gitlab through but only when I follow certain links.
+I requested the wrong license. in my defense the one i chose had Shannon written at the end of it, when in reality i needed the one that had milford at the end...
+
+Will hopefully get started with pytest and stuff today.
+what is pytest. A testing framework to write various types of tests in python language. (unit tests E2E tests, integration/function etc)
+ 
+watch a video on git and docker and pytest (youtube)
+
+-----------------------------------------------------------------------------------
+Tuesday 30/05/23
+
+Still waiting on access to Gitlab (Receiced access to the correct gitlab and cancelled the other one)
+gitbook
+
+gitlab public key
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCuVJBIrq7kIkDjyL6FRSNhOqflRw7LBIBfn0UMqS9IMsWvfE9eTIa+BcdU0I1KrS2N15M4M18ro25SfVM1KE3kcd8x0epu/6PGH4/+pS7tBmbwH4tPaG1by23sYJeYp9dEySdn0ndS+AfuLGsTludReis9JjIybmAYOSVYYc2Oin7G5/RXyzbLGZjVRW3CGB34H1VR9NQsx56JUrsFu4ozgzmxAefnHIliGsmrzXWOqiCQtUpFvNFetrOtdbjuL6hcpSf0hir2M5CWTXcw4WfpIjlWZApyquvtyqKhSS8yo3JGYPeimJjBDB0UYGSq+qibTi5o5eMH59mEcoX76sAWWOK00U7sHcHNLAqNlTcjvi6UCbYEvccv5otjrNtuZ1tpdlZoa+IIa8aTrAJEjQfVEraZx16PHXFdqVyeHegI2L4OSdPnnDEUfZ+9PS7uxzNF54QNihgIZMkMAaUXjpAu7XSkBvsECnVedROfoNpi/Y1KqScYT/qbPJuYft/6YB8= ginsha5e@DI2IESNN0270WNB
+
+Installed pytest (issues installing pip, had to add files to path)
+
+Attended mid sprint refinement.
+
+automated the set up of wsl to connect to dns servers through vpn. (i think it woeked, i wont be confident until i turn off the system and it works from scratch.)
+(now the dns resolution in wsl only works when connected to the vpn ahahahaha)
+
+RJL remote job launcher
+
+-----------------------------------------------------------------------------------
+
+Docker and pytest documentation.
+https://docs.docker.com/get-started/overview/
+
+jgQJu6hUnqkHTynByL38 access token
+
+2 hour call with jacob, cloudflow cli and controller
+First task received.
+
+-----------------------------------------------------------------------------------
+
+How to get files from repository to edit them in VS code? ( Vs code wsl extension)
+cdcf alias (change directory to cloudflow)
+alias showcommits='/usr/local/repos/devops/scripts/git/showCommits.py --all'
+How do i read info from the logs
+
+Multiple #TODOs
+test_connectivity.py (check log)
+streaming_testcase (parse controller log) (check cli log for expected message)
+
+How do i get to the controller log
+
+Regular expression, find the string "streaming server listening on port 50051" in /tmp/cloud-flow-ctrl.log
+
+[info] Streaming server listening on port 50051
+
+-----------------------------------------------------------------------------------
+Friday 02/06/2023
+
+Logged working hours from last month on compass

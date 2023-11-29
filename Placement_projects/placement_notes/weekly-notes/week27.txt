@@ -1,0 +1,22 @@
+week 27?
+20/11/2023
+
+Daily standups
+
+
+            output="python3 ../app.py -n $x1 -p $y1 -ne $z1"
+            radamsa <<< "$output" >> output_files/
+			
+Tuesday
+getting radamsa fuzz testing working on my test application
+
+wednesday
+re writing my application in java
+Started html essentials course on linkedin learning
+began java essentials course on linkedin learning to refresh java skills
+
+
+Thursday
+
+added the ability to take arguments from the cli arguments in the java programme
+

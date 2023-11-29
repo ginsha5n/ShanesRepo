@@ -1,0 +1,70 @@
+week 10 
+Monday 24/07/2023
+
+Working on my own project to use cloudflow to run a job in the controller and validate it ran and check to output on the ground cli
+
+lookup:
+in memory file system
+public and private keys (encryption and signing)
+ssh
+server sent events
+certificates
+proxy http server
+stream (rest end points related)
+mountpoints
+port numbers
+sha 256
+grpc servers
+-----------------------------------------------------------------------------------------------------
+
+Tuesday
+
+Bug: Cloudflow doesnt verify that a working directory has been set, fails and returns "invalid argument"
+
+Spoke with sachin about what calibre and RJL are. Learned how to run a tets rjl job on a vm machine on site.
+How to build RJL, there is no docker environment so 
+
+
+I know theyve had interns here before, either last year or the year before, but they dont have a solid structure of how
+the students timeline at the company should look like (structure. They had a checklist for the first few weeks but that was just 
+ticking boxes of the correct software to have installed and signed in on. 
+I'm acting as a guinie pig, im having teething problems getting to grip with things.
+
+The plan moving forward is that i will be spending time building my knowledge on th project in development and the previous project that
+acted as a stepping stone for the current product. Knowing how the product is suppsoed to operate at a high level should benifit me and my understanding
+and knowledge of th team and the technologies being spoken about around me. Why this is only being addressed now in week 10 and not back in my second or third week
+is what i would consider an oversight. 
+
+This is also an opprtunity to speak with other members of the team to get to know them. As it stands i have only ever had direct communications with the manager,
+my original "buddy"/tutor (the one with the attitude) and another staff member who i did get along with and someone who does fit the role of a tutor/teacher well.
+Speaking with other members of the team was a bit anxiety inducing, I know they are skilled developers but i cant be confident they are good techers/tutors since 
+ive been stung with dealing with poor tutors already. Luckily the collegue i spoke with today was very kind, polite, patient and his explnations and advice were well paced.
+
+----------------------------------------------------------------------------------------------------------
+Wednesday
+
+Spent the moring chatting with jason about running RJL with basic linux commands.
+
+The Remote job launcher was a prototype for the idea behind cloudflow. from my understanding, it makes a secure connection to a remote machine and begins 
+running the job on the remote machine while feeding the event data back to ground. Cloudflow uses that funtionality and also cretes a private machine in the cloud that 
+I just had serious deja vu.
+
+Another chat wit Sachin about running RJL with a calibre job between a server and host
+
+----------------------------------------------------------------------------------------------------------
+Thursday,
+
+Standup. 
+Spoke with Harsh about ssh, ssl certificates and public and private key technology for connecting to servers
+Did some more looking into those tech on my own made some notes
+
+Human benchmark: 37 words per minute
+40wpm,
+writing with the laptop keyboard is not very erganomical but the other keyboard is very clicky i dont lime that
+
+comaprig files using sha256 validation
+unit integration component end to end
+
+----------------------------------------------------------------------------------------------------------
+Friday 28/07/23
+

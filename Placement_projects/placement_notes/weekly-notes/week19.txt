@@ -1,0 +1,55 @@
+Week 19
+
+Monday 25/09/2023
+
+Went to standup
+depracated, becoming unsupported.
+
+Calibre container training for R&d and QA engineers
+
+what is a container
+container vs vm:
+
+container made up of layers (libraries/commands run) cached
+container engines and registries
+
+Tuesday
+
+Pytest
+creted logging informat
+
+DRY (dont repeat yourself) code
+workd with sachin on pytest iontegration testing
+
+
+Wednesday 
+
+Attended standup
+
+Calibre Docker container training for R&D and QA Engineers
+
+Thursday 28/09/2023
+
+Ian Grout coming in later.
+Ian grout chat went well, must ask john how he got on with him.
+
+Agile : Retrospective
+Siemens EDA offices
+Data center next door 
+EMEA Europe, Middle East and Asia
+
+I have my list of Issues to do:
+
+It takes a very long time to run the whole scripts of tests
+
+Everything except the large drc job 1min 46s
+
+with the large job :
+
+
+Linux wild cards 
+$()
+$?
+
+
+Friday:

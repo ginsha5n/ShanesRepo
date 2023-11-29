@@ -1,0 +1,26 @@
+cd test/integration
+
+
+cd cloudflow/bin
+sudo rm -rf *
+
+docker pull gitlab.industrysoftware.automation.siemens.com:4567/ice/cloud-flow/cloudflow/icedev-cpp-go-python-grpc:7
+docker run -it -v $(pwd):/cloudflow 901754eafbd0 /bin/bash
+cd cloudflow/
+make clean
+make
+
+how to i make the jar file to compile the job service (java)
+
+docker run -it -v $(pwd):/cloudflow  gradle:jdk17  /bin/bash
+cd /cloudflow
+gradle assemble
+
+
+docker-compose up
+docker exec -it integration_cli-container_1 /bin/bash
+cd cloudflow-bin/
+source support.sh
+cloudflow-quick-test
+//////////////////////////////////////////////////////
+

@@ -1,0 +1,94 @@
+Week 7
+Monday 03/07/2023
+
+Writing shell scripts
+https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
+
+GNU Bourne-again shell (BASH)
+$ shell prompt (waiting for command)
+# running as root
+
+A script is a series of commands written in a file, read and executed by bash
+#! start the file with #! , tells the script to execute via bash shell
+chmod 
+to be able to use docker run without sudo it has to be rootless
+if
+fi (close if statement)
+
+kernel: The core of an OS with compleet control. manages file, process, I/O, memory and device managment
+
+Linus Torvald developed the linux kernal
+
+------------------------------------------------------------------------------------------------------------------
+Tuesday
+
+What are docker volumes
+https://www.youtube.com/watch?v=OrQLrqQm4M0
+
+a method of accessing files and directories from host to docker container.
+persistant data-> data stays around even when docker containr shuts down
+Volumes are independant from container,
+can be  mapped to storage
+can be accessed by multiple containers
+ 
+ 
+ SSH Secure SHell
+ 
+------------------------------------------------------------------------------------------------
+Wednesday
+
+mountpoint
+a directory on a file system that is logically linked to another file system
+Docker Volumes 
+Docker compose
+
+made a docker compose file that spins up 3 containers with ubuntu images and a shared volumes
+tested volumes in each container.
+
+-----------------------------------------------------------------------------------------------
+Thursday 06/07/2023
+
+In the next sprint:
+Start into actual tasks,
+will not be assigned story points until following sprint.
+
+sprint planning:
+review your assigned tasks, ask:
+
+	do you understand the task.
+	are you confident you can achieve it.
+	are you comfortable with the workload.
+
+-----------------------------------------------------------------------------------------------
+Friday
+
+Refinement -> get more into detail and ajust story point guesstimates from planning into more accurate story point aplied
+
+When does it come in useful in linux to truncate files??
+
+what problems did i face today:
+
+test product banner,
+i didnt know if grep was suitable, or regular expression, the rjl test uses grep so thats went with.
+researched the grep commad to see if there was a better way to make suit my situation ie options -x? (went with none
+I was able to grep the alpha state message but when it came to the copyright symbale i didnt want to match it to 2023,
+looked at regular expressions to see if that would be a better path to explore, in the end i didnt.
+then realised the output of grep was a list of everytime the pattern appeared so i turned the output into a string before asserting it mathes what i want.
+
+test truncate,
+didnt know what truncate was in linux, looked it up
+had difficulty creating the test files, i was attempting to make 1 file than copy it into other files, permission was denied 
+just created 2 files, 1 to truncate to 0 and 1 to truncate to 2.
+
+testinvalid command
+spent time figuring out how to do that, 
+
+nxdgyXJRrriTNhBzsqxa
+
+Review testcases 
+research robot framwork 
+implement tests
+internal demo ('-')
+---------------------------------------
+Banner test:
+	start launcher, verif banner information is ther (copyright siemens), shutdown 

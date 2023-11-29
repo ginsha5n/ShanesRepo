@@ -1,0 +1,89 @@
+Data Structures Study for Manager.
+
+SLL
+In a single linked list, each node has a pointer that points to the next node in the list with the last node pointing to the first.
+To store items that are processed in order (list of tasks)
+
++
+dynamic, allocates memeory as needed
+easy to implement reduces access and traverse
+
+-
+difficult to reverse
+cannot access node randomly
+
+DLL
+each node points to the next and previous node, allows for forward and back travel
+for applications that require movement both forward and back
+stored randomly
+
++
+Easy to reverse a node
+moving data is easier
+deleting data is easier than SLL only one pointer reuired
+
+
+-
+cost more memory
+slower to traverse
+more complex than sll
+
+
+Stack
+linear data structure. Last in first out to store elements in memory. store only the same data types. 
+One end, top, deletion and insertion occur.
+example undo/redo operation
+linear search N
+
++
+simple effcienet data managment
+secure, not easily corrupted
+
+-
+not flexable
+lack of scalability
+limited memory size
+
+
+Que
+First in First out to store elements. Only same data types
+two ends, rear and front, rear inserts items, front deletes items
+three types, circular, double ended and priority
+more complex than stack as two pointers are involved.
+not effcient searching
+example os process schuduling.
+
++
+Easy insertion and deletion O(1) insert from end delete from front
+fast processing 
+
+-
+more complex
+inserting and deleting from the middle is difficult
+searching takes N time
+
+
+Map
+data structure with key pair values (python dictionaries), allows 
+
+Hash Map
+simplest implementaion of a map data structure
+
+
+Bag
+unordered
+searching- searches the whole collection since there could be duplicates O(N)
+insertion- easy, O(1)
+deletion -searches whole collection O(N) only deletes that instance 
+
+usefull frostoring multiple occurences of an element. i.e counting/collecting statistics
+
+Array
+collection of elements of the same types
+
+Set
+
+collection of unique elements
+effcient O(1) searching (hashing 1 )
+inserting (checks for uniqueness)
+deletion
