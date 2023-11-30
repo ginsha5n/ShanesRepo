@@ -16,3 +16,8 @@ app_copy.java to continue the work on while keeping the original in order.
 A future improvement or something to keep in mind in future projects is to use version control such as git to keep my file structure cleaner and less confusing. I could have created app.java in 
 a repository, got it to a working state and then when i wanted to change the functionality i could have created a branch and work on that version until I achieved the goal and then merge it 
 back to the main branch with the changes.
+
+# Testing
+
+from java_app directory, run java test_folder/testing.java
+This will run the testing file which runs the app multiple times.

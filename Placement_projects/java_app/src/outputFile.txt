@@ -1,0 +1,4 @@
+Positive
+Start
+Destroyed
+Failed

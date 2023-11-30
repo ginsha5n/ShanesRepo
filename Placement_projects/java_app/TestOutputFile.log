@@ -1,0 +1,468 @@
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f 'testOtherInputValues.txt'
+java.io.FileNotFoundException: 'testOtherInputValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: 'testOtherInputValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive, Go, Pass, Complete]
+[Failed, Destroyed, negative, Broken, lost]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f 'defaultValues.txt'
+java.io.FileNotFoundException: 'defaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: 'defaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f 'defaultValues.txt'
+java.io.FileNotFoundException: 'defaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: 'defaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f 'testOtherDefaultValues.txt'
+java.io.FileNotFoundException: 'testOtherDefaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: 'testOtherDefaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f 'testOtherDefaultValues.txt'
+java.io.FileNotFoundException: 'testOtherDefaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: 'testOtherDefaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f 'junk/testOtherDefaultValues.txt'
+java.io.FileNotFoundException: 'junk/testOtherDefaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: 'junk/testOtherDefaultValues.txt' (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f "testOtherInputValues.txt"
+java.io.FileNotFoundException: "testOtherInputValues.txt" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: "testOtherInputValues.txt" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f "testOtherInputValues.txt"
+java.io.FileNotFoundException: "testOtherInputValues.txt" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: "testOtherInputValues.txt" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f "testOtherInputValues.txt"
+java.io.FileNotFoundException: "testOtherInputValues.txt" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+java.io.FileNotFoundException: "testOtherInputValues.txt" (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.util.Scanner.<init>(Scanner.java:641)
+	at src.app_copy.main(app_copy.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.execute(Main.java:434)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.run(Main.java:205)
+	at jdk.compiler/com.sun.tools.javac.launcher.Main.main(Main.java:132)
+Exception in thread "main" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:627)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at src.app_copy.main(app_copy.java:77)
