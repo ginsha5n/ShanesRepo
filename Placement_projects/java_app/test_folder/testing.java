@@ -19,12 +19,8 @@ public class testing {
         // No arguments given should read values from default file.
         TestingFramework.runCommand("java src/app_copy.java"); 
 
-        TestingFramework.runCommand("java src/app_copy.java -f \"testOtherInputValues.txt\"");
-
-
+        // Testing when given a file to read values from.
+        TestingFramework.runCommand("java src/app_copy.java -f testOtherInputValues.txt");
     }
-
-
-    
 }
 

@@ -1,4 +1,10 @@
+Complete
+lost
+Go
 Destroyed
-Positive
-Failed
 Start
+Broken
+Failed
+Pass
+negative
+Positive
