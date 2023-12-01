@@ -1,0 +1,32 @@
+-----Start-----
+java src/app_copy.java -n 1 -p 3
+Hello World
+[Start, Positive, Go]
+[Failed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -n 4 -p 4
+Hello World
+[Start, Positive, Go, Pass]
+[Failed, Destroyed, negative, Broken]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java
+Hello World
+[Start, Positive]
+[Failed, Destroyed]
+
+Words printed to file outputFile.txt
+
+-----Start-----
+java src/app_copy.java -f testOtherInputValues.txt
+Hello World
+[Start, Positive, Go, Pass, Complete]
+[Failed, Destroyed, negative, Broken, lost]
+
+Words printed to file outputFile.txt
+
