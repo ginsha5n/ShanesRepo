@@ -74,14 +74,17 @@ def main():
     the time I finish at Siemens.
     """
 
-    today = Date()
+    
 
+    today = Date()
     today.print_date()
 
     print("Our last day at Siemens is Thursday the 18th of January 2024")
     target_date = datetime.datetime(2024, 1, 18)
 
-    today.print_all_info(target_date, 7) # 7 represents 7 days holiday removed from the count
+    days_of_holidays = 9 # week of xmas (5) + 3 days booked off the week before + new years day
+
+    today.print_all_info(target_date, days_of_holidays) # 7 represents 7 days holiday removed from the count
 
 
 if __name__ == "__main__":
