@@ -1,0 +1,13 @@
+negative
+Built
+Congrats
+Go
+Pass
+Destroyed
+Failed
+Winner
+Prize
+Done
+Positive
+Complete
+Start

@@ -1,0 +1,1 @@
+python3 /mnt/c/Users/z004swjt/Documents/CodeBase/myapp/app.py -n {num} -p {num} -ne {num}
