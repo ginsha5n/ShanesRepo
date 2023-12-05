@@ -1,8 +1,10 @@
+Complete
+lost
+Destroyed
+negative
 Go
-Pass
+Broken
 Positive
 Failed
+Pass
 Start
-Complete
-negative
-Destroyed
