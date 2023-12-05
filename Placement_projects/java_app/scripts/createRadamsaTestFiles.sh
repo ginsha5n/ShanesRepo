@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ../radamsaTesting
+
 default_files_created=10
 
 # This takes in the first argument in th cli as the amount of files to create, 

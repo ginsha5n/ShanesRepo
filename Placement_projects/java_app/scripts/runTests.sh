@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ..
+
 # Remove any old logfile
 path_to_log_file="TestOutputFile.log"
 

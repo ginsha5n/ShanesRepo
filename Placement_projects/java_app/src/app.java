@@ -20,7 +20,7 @@ import java.util.Collections;
  * version control and making a branch but as this is a personal project and
  * no one else is looking at it ill just do this.
  */
-public class app_copy {
+public class app {
     public static void main(String[] args) throws IOException {
 
         // If no argument is given both values default to 2
