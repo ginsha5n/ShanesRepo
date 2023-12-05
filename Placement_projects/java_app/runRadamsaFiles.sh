@@ -4,7 +4,7 @@ directory="radamsaTesting/radamsaOutputFiles/"
 
 for file in "$directory"*; do
     echo "Running script $file"
-    javac src/app_copy.java
-    java src/app_copy.java -f $file
+    javac src/app.java
+    java src/app.java -f $file
     echo "-----------------------"
 done
