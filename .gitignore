@@ -1,0 +1,8 @@
+# Ignore radamsa testing files created by shell script in Java_app
+/Placement_projects/java_app/radamsaTesting/radamsaOutputFiles/file*
+
+# Ignore log files
+*.log
+
+# Ignore class files
+*.class
