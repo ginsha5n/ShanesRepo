@@ -35,6 +35,11 @@ public class app {
                 negativeWordsToRead = args[i + 1];
             } else if ("-f".equals(args[i]) && i + 1 < args.length) {
                 defaultValuesFilePath = args[i + 1];
+            } else if ("-h".equals(args[i])) {
+                System.out.println(
+                        "\nThis is an application that reads text from 2 files, one of positive words and one of negative words\n"+
+                        "Use -p {int} to specify the number of words to take from the positive file and -n{int} to specify the number of words to take from the negative file\n");
+                        System.exit(0);
             }
         }
 
