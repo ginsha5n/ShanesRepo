@@ -6,3 +6,6 @@
 
 # Ignore class files
 *.class
+
+# Java App output file
+/Placement_projects/java_app/outputFile.txt
