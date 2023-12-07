@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# figure out current directory. Command will work in rither the base project dir or the scripts folder.
+# Compile javav files within the application
+
+# figure out current directory. Command will work in either the base project dir or the scripts folder.
 current_dir=$(basename "$(pwd)")
 if [ "$current_dir" == "scripts" ]; then # String comparison
     cd ..

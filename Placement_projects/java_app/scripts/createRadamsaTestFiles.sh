@@ -1,6 +1,13 @@
 #!/bin/bash
 
-cd ../radamsaTesting
+current_dir=$(basename "$(pwd)")
+if [ "$current_dir" == "scripts" ]; then # String comparison
+    cd ../radamsaTesting
+
+else
+    cd radamsaTesting/
+fi
+
 
 default_files_created=10
 

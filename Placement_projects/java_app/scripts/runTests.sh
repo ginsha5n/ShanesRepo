@@ -1,6 +1,10 @@
 #!/bin/bash
 
-cd ..
+current_dir=$(basename "$(pwd)")
+if [ "$current_dir" == "scripts" ]; then # String comparison
+    cd ..
+fi
+
 
 # Remove any old logfile
 path_to_log_file="TestOutputFile.log"

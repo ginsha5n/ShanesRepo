@@ -1,6 +1,10 @@
 #!/bin/bash
 
-cd ..
+# Figuring out am i in the scripts dir or main project dir
+current_dir=$(basename "$(pwd)")
+if [ "$current_dir" == "scripts" ]; then 
+    cd ..
+fi
 
 directory="radamsaTesting/radamsaOutputFiles/"
 
