@@ -14,8 +14,8 @@ func main() {
 
 	args := os.Args
 
-	num, err := strconv.Atoi(args[1]) //Atoi Ascii to integer
-	if err != nil {
+	num, err := strconv.Atoi(args[1]) //Atoi Ascii to integer,	this function returns the converted value and an error value.
+	if err != nil {	// If the err value is not = to null (i.e there has been an error) than the app outputs an error message
 		fmt.Println("Invalid input. Please provide a valid integer.")
 		return
 	}
