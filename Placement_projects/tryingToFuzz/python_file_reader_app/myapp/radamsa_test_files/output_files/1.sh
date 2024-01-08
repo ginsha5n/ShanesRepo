@@ -1,0 +1,1 @@
+python3 /mnt/c/Users/z-1swjt/Documents/CodeBase/myapp/app.py -n 1 -p 2 -ne 340282366920938463463374607431768211454python3 /mnt/c/Users/z-1swjt/Documents/CodeBase/myapp/app.py -n 1 -p 2 -ne 3

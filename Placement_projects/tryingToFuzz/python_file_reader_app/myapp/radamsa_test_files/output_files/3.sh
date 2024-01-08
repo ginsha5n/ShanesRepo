@@ -1,0 +1,1 @@
+python3 /mnt/c/Users/z128swjt/Documents/CodeBase/myapp/app.py -n 1 -p 2 -ne 3
