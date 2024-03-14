@@ -1,0 +1,7 @@
+PROGRAM test;
+VAR a, b, c;
+BEGIN
+  a := 10;
+  b := c;
+  c := 20;
+END.

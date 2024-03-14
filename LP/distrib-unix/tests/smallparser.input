@@ -1,0 +1,5 @@
+PROGRAM test;
+BEGIN
+   A := 20;
+   B := C;
+END.

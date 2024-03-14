@@ -1,0 +1,9 @@
+PROGRAM factv2;
+VAR n, factN;
+PROCEDURE fact(VAR n, REF acc);
+BEGIN
+IF n <= 1 THEN BEGIN acc := 1; END
+ELSE BEGIN
+fact(n-1,acc); acc := acc * n;
+END;
+END.

@@ -1,0 +1,39 @@
+  1 !
+  2 !               Test Program
+  3 !
+  4 PROGRAM test;
+  5 VAR x, y;
+  6 
+  7 PROCEDURE muck ( REF x );
+                     ^
+Syntax Error: Expected VAR, got REF
+
+                           ^
+Syntax Error: Expected ;, got )
+
+  8 VAR y;
+  9 BEGIN
+ 10     y := x + 234 * y;
+                     ^
+Syntax Error: Expected ;, got *
+
+ 11 END;
+ 12 
+ 13 BEGIN           ! main program starts here
+ 14     muck( x );
+            ^
+Syntax Error: Expected :=, got (
+
+ 15 END.
+    ^
+Syntax Error: Expected Integer Constant, got End of File
+
+    ^
+Syntax Error: Expected ;, got End of File
+
+    ^
+Syntax Error: Expected END, got End of File
+
+    ^
+Syntax Error: Expected ., got End of File
+
