@@ -1,0 +1,32 @@
+  1 !
+  2 !               salgol1.pro
+  3 !               program to test error detection of a parser
+  4 !               augmented with basic S-Algol error recovery.
+  5 !
+  6 PROGRAM perror;
+  7 VAR x, y;
+  8 
+  9 PROCEDURE p( p1, p2, p3, REF p4 );
+ 10 VAR p5, p6, p7;
+ 11 BEGIN
+ 12     p4 := (p1+p2)*p3;
+ 13 END;
+ 14 
+ 15 BEGIN
+ 16     p( 1, 2, 3, x);
+ 17     IF x = 3 BEGIN      ! THEN expected
+                 ^
+Syntax: Expected THEN, got BEGIN
+
+ 18         y := x;
+ 19     END
+ 20     ELSE                ! BEGIN expected
+ 21         y := 3;
+            ^
+Syntax: Expected BEGIN, got Identifier
+
+ 22     END;
+ 23 
+ 24     IF x <= y THEN BEGIN
+ 25     END;
+ 26 END.

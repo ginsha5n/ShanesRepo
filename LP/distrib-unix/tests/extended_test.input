@@ -1,0 +1,7 @@
+PROGRAM hello;
+VAR x,y,z;
+BEGIN
+x:=2;
+y:=x+5+z;
+z:=x+20;
+END.

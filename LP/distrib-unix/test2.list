@@ -1,0 +1,6 @@
+  1 PROGRAM test2;
+  2 VAR x, y;
+  3 BEGIN
+  4 y := 27;
+  5 x := 3;
+  6 END.

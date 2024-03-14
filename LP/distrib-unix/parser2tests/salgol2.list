@@ -1,0 +1,27 @@
+  1 !
+  2 !               salgol2.pro
+  3 !               program to test error detection of parser 
+  4 !               augmented with S-Algol error recovery.
+  5 !
+  6 PROGRAM perror;
+  7 VAR x, y;
+  8 
+  9 BEGIN
+ 10     IF x = 3 THEN BEGIN  
+ 11         y = x;          ! Got an equality where an assignment expected
+              ^
+Syntax: Expected :=, got =
+
+ 12     END
+ 13     ELSE                ! BEGIN expected
+ 14         y = 3;          ! Got an equality where an assignment expected
+            ^
+Syntax: Expected BEGIN, got Identifier
+
+              ^
+Syntax: Expected :=, got =
+
+ 15     END;
+ 16 END.
+    ^
+Accept: resynch at end of file
