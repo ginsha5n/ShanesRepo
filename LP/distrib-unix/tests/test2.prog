@@ -1,6 +1,0 @@
-PROGRAM test2;
-VAR x, y;
-BEGIN
-y := 27;
-x := 3;
-END.
