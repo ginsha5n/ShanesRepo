@@ -1,5 +1,0 @@
-Pycharm setup:
-
-File->Settings->Editor->Colour Scheme ->Darcula Contrast
-					  ->General->Apperance-> Show line numbers
-					  ->Python->Colour scheme

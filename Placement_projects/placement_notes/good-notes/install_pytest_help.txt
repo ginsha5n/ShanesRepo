@@ -1,5 +1,0 @@
-install pytest useful links
-
-https://docs.pytest.org/en/7.3.x/getting-started.html#get-started
-https://stackoverflow.com/questions/65515116/i-have-a-problem-with-pytest-execution-i-install-the-pytest-but-it-doesnot-show
-https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/

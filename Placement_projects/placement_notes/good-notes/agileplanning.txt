@@ -1,9 +1,0 @@
-What is agile project planning:
-
-iterative adaptive approach to project planning. 
-Working incrementaly to deliver value to the customer fastre.
-always evaluating results and requirements
-respond quickly to changes that appear
-
-focus on collaboration and communication
-PO (product owner) prioritizes tasks but team determine project planning
