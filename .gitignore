@@ -9,3 +9,7 @@
 
 # Java App output file
 /Placement_projects/java_app/outputFile.txt
+
+#Generate word files outputs
+/Placement_projects/GenerateRandom/newRandom.txt
+/Placement_projects/GenerateRandom/random.txt
