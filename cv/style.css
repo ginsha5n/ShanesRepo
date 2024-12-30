@@ -1,0 +1,21 @@
+.header {
+    text-align: center;
+}
+
+.contact_details h3 {
+    display: inline;
+    padding: 5%
+}
+
+.dotted-line h2 {
+    border-bottom: 2px dotted lightgray;
+    margin: 10px 5% 10px 5%
+  }
+
+.text_block h4 {
+    margin-bottom: 0;
+}
+
+.text_block p  {
+    margin-top: 0;
+}
